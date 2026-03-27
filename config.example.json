@@ -1,0 +1,28 @@
+{
+  "wallet": "0xYOUR_WALLET_ADDRESS_HERE",
+  "ens": null,
+  "solanaWallet": null,
+  "chains": {
+    "ethereum": { "rpc": "https://ethereum-rpc.publicnode.com", "chainId": 1, "symbol": "ETH" },
+    "base": { "rpc": "https://mainnet.base.org", "chainId": 8453, "symbol": "ETH" },
+    "arbitrum": { "rpc": "https://arb1.arbitrum.io/rpc", "chainId": 42161, "symbol": "ETH" },
+    "optimism": { "rpc": "https://mainnet.optimism.io", "chainId": 10, "symbol": "ETH" },
+    "polygon": { "rpc": "https://polygon-rpc.com", "chainId": 137, "symbol": "POL" },
+    "bsc": { "rpc": "https://bsc-dataseed1.binance.org", "chainId": 56, "symbol": "BNB" },
+    "avalanche": { "rpc": "https://api.avax.network/ext/bc/C/rpc", "chainId": 43114, "symbol": "AVAX" },
+    "zksync": { "rpc": "https://mainnet.era.zksync.io", "chainId": 324, "symbol": "ETH" },
+    "scroll": { "rpc": "https://rpc.scroll.io", "chainId": 534352, "symbol": "ETH" },
+    "linea": { "rpc": "https://rpc.linea.build", "chainId": 59144, "symbol": "ETH" },
+    "blast": { "rpc": "https://rpc.blast.io", "chainId": 81457, "symbol": "ETH" },
+    "mantle": { "rpc": "https://rpc.mantle.xyz", "chainId": 5000, "symbol": "MNT" },
+    "hyperliquid": { "rpc": "https://rpc.hyperliquid.xyz/evm", "chainId": 999, "symbol": "HYPE" }
+  },
+  "watchlist": [
+    { "name": "Ether.fi", "chain": "ethereum", "url": "https://app.ether.fi", "blog": "https://blog.ether.fi/rss" },
+    { "name": "EigenLayer", "chain": "ethereum", "url": "https://app.eigenlayer.xyz", "blog": "https://blog.eigenlayer.xyz/rss/" }
+  ],
+  "scamPatterns": [
+    "visit.*to claim", "claim.*reward", "staking.*reward"
+  ],
+  "stateFile": "airdrop_state.json"
+}

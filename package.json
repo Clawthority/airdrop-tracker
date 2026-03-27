@@ -1,0 +1,14 @@
+{
+  "name": "airdrop-tracker",
+  "version": "1.0.0",
+  "description": "Multi-chain airdrop monitoring system with transaction intelligence",
+  "main": "tracker.js",
+  "scripts": {
+    "track": "node tracker.js | node format.js",
+    "discover": "node discover.js | node format-discover.js",
+    "intel": "node tx-intel.js | node format-tx-intel.js",
+    "money": "cd money-engine && node money-engine.js | node format.js"
+  },
+  "keywords": ["airdrop", "crypto", "defi", "ethereum", "blockchain", "tracker"],
+  "license": "MIT"
+}
