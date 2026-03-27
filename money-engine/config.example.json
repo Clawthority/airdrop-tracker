@@ -1,0 +1,9 @@
+{
+  "wallet": "0xYOUR_WALLET_ADDRESS_HERE",
+  "budget": { "ethForGas": 0.05, "riskTolerance": "medium" },
+  "strategies": {
+    "airdropFarming": { "enabled": true, "priority": 1 },
+    "yieldOptimization": { "enabled": true, "priority": 2 },
+    "testnetHunting": { "enabled": true, "priority": 3 }
+  }
+}
